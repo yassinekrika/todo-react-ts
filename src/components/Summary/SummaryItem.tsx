@@ -1,4 +1,3 @@
-
 const SummaryItem = ({
     itemName,
     itemValue,
