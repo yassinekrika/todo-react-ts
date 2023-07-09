@@ -29,6 +29,7 @@ const App = () => {
 
   const handleSubmit = (e: FormEvent<HTMLFormElement>, value: string) => {
     e.preventDefault()
+    console.log(value)
     const newTask = {
       name: value,
       done: false,

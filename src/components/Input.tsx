@@ -22,11 +22,13 @@ const Input = ({
           type="text" 
           className="p-1 rounded-sm" 
           value={newTask}
-          onChange={(e)=> setNewTask(e.target.value)}
+          onChange={(e)=> {
+            setNewTask(e.target.value)
+          }}
         />
       </div>
       <button
-        type="button"
+        type="submit"
         className="bg-green100 rounded-lg hover:bg-green-200 [-1"
       >
         Add task
